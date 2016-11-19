@@ -8,7 +8,7 @@ def add_num(file,num,font_name,color):
     draw.text((0,0), text, color, font)
     file.show()
 
-image = Image.open("in.jpg")
+image = Image.open("D://tuzhenyu/GitHub/python_project/smallProgramEveryDay/program001/in.jpg")
 num = 4
 color = (0,0,0)
 font_name = "verdana.ttf"
