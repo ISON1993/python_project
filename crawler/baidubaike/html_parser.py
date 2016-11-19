@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import re
 import urllib.parse
-import html_parser
 
 class HtmlParser(object):
 

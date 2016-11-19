@@ -4,7 +4,8 @@ file = open('D://tuzhenyu/GitHub/python_project/smallProgramEveryDay/program011/
 for word in file.readlines():
     wordFilter.add(word.rstrip('\n'))
 wordInput = input()
-if wordInput in wordFilter:
-    print('Freedom')
-else:
-    print('Human Rights')
+for wordf in wordFilter:
+    if wordf in wordInput:
+        print(wordInput.replace(wordf,'*'))
+    else:
+        print(wordInput)
