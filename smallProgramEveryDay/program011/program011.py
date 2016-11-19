@@ -1,5 +1,9 @@
 wordFilter = set()
-file = open('D://tuzhenyu/GitHub/python_project/smallProgramEveryDay/program011/filtered_words.txt',
-        'r')
-for word in file.readline():
-    print(word)
+file = open('/home/tuzhenyu/github/python_project/smallProgramEveryDay/program011/words.txt','r')
+for word in file.readlines():
+    wordFilter.add(word.rstrip('\n'))
+wordInput = input()
+if wordInput in wordFilter:
+    print('Freedom')
+else:
+    print('Human Rights')
