@@ -54,3 +54,5 @@ Python 练习册，实验楼
 **第 0018 题：抓取拉勾网职位信息，存入excel** - [实验楼](http://www.jianshu.com/p/5cdd6e335ae8?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends)
 
 **第 0019 题：Python实现Python解释器** 实现一个玩具解释器开始学习解释器的基本知识。之后通过考察Python字节码进一步学习理解Python解释器的内部机制。最终参考`Byterun`（一个现有的Python解释器）实现一个500行以内的Python解释器。 - [实验楼](https://www.shiyanlou.com/courses/554)
+
+**第 0020 题：Python微信好友消息群发** 好友群发微信祝福过年吧，加上好友的名字，诚意十足，居家必备- [GitHub ](https://github.com/vonnyfly/wechat-sendall)
