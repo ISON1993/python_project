@@ -1,9 +1,51 @@
-<html>
-  <head>
-    <title>flask</title>
-  </head>
-  <body>
-    <h1>hello world!</h1>
-    <h2>{{name}}</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>blog</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css"/>
+    <style>
+
+    </style>
+</head>
+    <body>
+        <div class="main-wrapper">
+            <header>
+                <nav>
+                    <div class="logo"><a href="index.html">涂振宇</a></div>
+                    <ul>
+                        <li id="sidebar_trigger">
+                          <a id="index" href="/login">主页</a>
+                          <a id="technology" href="#">技术</a>
+                          <a id="project" href="#">项目</a>
+                          <a id="life" href="#">生活</a>
+                          <a id="about" href="#">关于</a>
+                        </li>
+                        <li class="fa fa-bars fa-2x" aria-hidden="true"><a href="#"></a></li>
+                    </ul>
+                </nav>
+                <div id="banner">
+                    <div class="inner">
+                        <div id="headName">
+                            <h1>涂振宇</h1>
+                        </div>
+                        <p class="sub-heading">我一直在寻找着，生命中那朵玫瑰，终于让我遇见你，值得用一生追随。</p>
+                    </div>
+                </div>
+            </header>
+            <footer>
+                <ul class="share-group">
+                    <i class="fa fa-weibo fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-qq fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-weixin fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                </ul>
+            </footer>
+        </div>
+        <div id="mask"></div>
+        <script src="../static/js/jquery-3.1.1.js"></script>
+        <script src="../static/js/style.js"></script>
+    </body>
 </html>
