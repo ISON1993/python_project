@@ -66,6 +66,7 @@ nav ul li a{                              /*����li���ڵ����
 }
 nav ul li a:hover{
   border-bottom:2px solid #fff;
+  background-color: transparent;
 }
 nav ul .fa{                              /*����li���ڵ�������ʽ*/
     line-height: 50px;

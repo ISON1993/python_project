@@ -23,6 +23,22 @@ def index():
 def login():
     return render_template('login.html')
 
+@app.route('/technology', methods = ['GET', 'POST'])
+def technology():
+    return render_template('technology.html')
+
+@app.route('/project', methods = ['GET', 'POST'])
+def project():
+    return render_template('technology.html')
+
+@app.route('/life', methods = ['GET', 'POST'])
+def life():
+    return render_template('technology.html')
+
+@app.route('/about', methods = ['GET', 'POST'])
+def about():
+    return render_template('technology.html')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=9999, use_reloader=True)
